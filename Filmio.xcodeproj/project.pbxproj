@@ -1,0 +1,501 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0635CEF54F6C3B0C8052AFE3 /* Pods_Filmio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7AED6E0DAB6DBA04962696E /* Pods_Filmio.framework */; };
+		BA4D7BE01DDC9EF00031EB65 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA4D7BDE1DDC9EF00031EB65 /* Main.storyboard */; };
+		BA4D7BE21DDC9EF00031EB65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA4D7BE11DDC9EF00031EB65 /* Assets.xcassets */; };
+		BA4D7BE51DDC9EF00031EB65 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA4D7BE31DDC9EF00031EB65 /* LaunchScreen.storyboard */; };
+		BA4D7BEE1DDC9F650031EB65 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4D7BED1DDC9F650031EB65 /* AppDelegate.swift */; };
+		BA4D7BF21DDC9F760031EB65 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4D7BEF1DDC9F760031EB65 /* DataManager.swift */; };
+		BA4D7BF31DDC9F760031EB65 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4D7BF01DDC9F760031EB65 /* DetailViewController.swift */; };
+		BA4D7BF41DDC9F760031EB65 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4D7BF11DDC9F760031EB65 /* Extensions.swift */; };
+		BA4D7BFD1DDC9F7F0031EB65 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4D7BF51DDC9F7F0031EB65 /* Models.swift */; };
+		BA4D7BFE1DDC9F7F0031EB65 /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4D7BF61DDC9F7F0031EB65 /* MovieCell.swift */; };
+		BA4D7BFF1DDC9F7F0031EB65 /* MovieCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4D7BF71DDC9F7F0031EB65 /* MovieCollectionView.swift */; };
+		BA4D7C001DDC9F7F0031EB65 /* NoMovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4D7BF81DDC9F7F0031EB65 /* NoMovieCell.swift */; };
+		BA4D7C011DDC9F7F0031EB65 /* PageCollectionLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4D7BF91DDC9F7F0031EB65 /* PageCollectionLayout.swift */; };
+		BA4D7C031DDC9F7F0031EB65 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4D7BFB1DDC9F7F0031EB65 /* SearchViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		35AD10B6BB70790E8ADD7E73 /* Pods-Filmio.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Filmio.release.xcconfig"; path = "Pods/Target Support Files/Pods-Filmio/Pods-Filmio.release.xcconfig"; sourceTree = "<group>"; };
+		731D0FFD9DA4AD6240749176 /* Pods-Filmio.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Filmio.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Filmio/Pods-Filmio.debug.xcconfig"; sourceTree = "<group>"; };
+		BA4D7BD71DDC9EF00031EB65 /* Filmio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Filmio.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA4D7BDF1DDC9EF00031EB65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BA4D7BE11DDC9EF00031EB65 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BA4D7BE41DDC9EF00031EB65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BA4D7BE61DDC9EF00031EB65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA4D7BED1DDC9F650031EB65 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BA4D7BEF1DDC9F760031EB65 /* DataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		BA4D7BF01DDC9F760031EB65 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		BA4D7BF11DDC9F760031EB65 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		BA4D7BF51DDC9F7F0031EB65 /* Models.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		BA4D7BF61DDC9F7F0031EB65 /* MovieCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
+		BA4D7BF71DDC9F7F0031EB65 /* MovieCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieCollectionView.swift; sourceTree = "<group>"; };
+		BA4D7BF81DDC9F7F0031EB65 /* NoMovieCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoMovieCell.swift; sourceTree = "<group>"; };
+		BA4D7BF91DDC9F7F0031EB65 /* PageCollectionLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageCollectionLayout.swift; sourceTree = "<group>"; };
+		BA4D7BFB1DDC9F7F0031EB65 /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		F7AED6E0DAB6DBA04962696E /* Pods_Filmio.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Filmio.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA4D7BD41DDC9EF00031EB65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0635CEF54F6C3B0C8052AFE3 /* Pods_Filmio.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1CF5F260E5CEBF7B4A14DC8D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				731D0FFD9DA4AD6240749176 /* Pods-Filmio.debug.xcconfig */,
+				35AD10B6BB70790E8ADD7E73 /* Pods-Filmio.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8B4BB7CC251D172B5BE40A00 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F7AED6E0DAB6DBA04962696E /* Pods_Filmio.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BA4D7BCE1DDC9EF00031EB65 = {
+			isa = PBXGroup;
+			children = (
+				BA4D7BD91DDC9EF00031EB65 /* Filmio */,
+				BA4D7BD81DDC9EF00031EB65 /* Products */,
+				1CF5F260E5CEBF7B4A14DC8D /* Pods */,
+				8B4BB7CC251D172B5BE40A00 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BA4D7BD81DDC9EF00031EB65 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA4D7BD71DDC9EF00031EB65 /* Filmio.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA4D7BD91DDC9EF00031EB65 /* Filmio */ = {
+			isa = PBXGroup;
+			children = (
+				BA4D7C0C1DDCA3DA0031EB65 /* models */,
+				BA4D7C0B1DDCA3C80031EB65 /* networking */,
+				BA4D7C0A1DDCA3C00031EB65 /* extensions */,
+				BA4D7C091DDCA3BC0031EB65 /* cells */,
+				BA4D7C081DDCA3B80031EB65 /* layouts */,
+				BA4D7C071DDCA3AF0031EB65 /* views */,
+				BA4D7C061DDCA3910031EB65 /* controllers */,
+				BA4D7C051DDCA3880031EB65 /* delegates */,
+				BA4D7BDE1DDC9EF00031EB65 /* Main.storyboard */,
+				BA4D7BE11DDC9EF00031EB65 /* Assets.xcassets */,
+				BA4D7BE31DDC9EF00031EB65 /* LaunchScreen.storyboard */,
+				BA4D7BE61DDC9EF00031EB65 /* Info.plist */,
+			);
+			path = Filmio;
+			sourceTree = "<group>";
+		};
+		BA4D7C051DDCA3880031EB65 /* delegates */ = {
+			isa = PBXGroup;
+			children = (
+				BA4D7BED1DDC9F650031EB65 /* AppDelegate.swift */,
+			);
+			name = delegates;
+			sourceTree = "<group>";
+		};
+		BA4D7C061DDCA3910031EB65 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BA4D7BF01DDC9F760031EB65 /* DetailViewController.swift */,
+				BA4D7BFB1DDC9F7F0031EB65 /* SearchViewController.swift */,
+			);
+			name = controllers;
+			sourceTree = "<group>";
+		};
+		BA4D7C071DDCA3AF0031EB65 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				BA4D7BF71DDC9F7F0031EB65 /* MovieCollectionView.swift */,
+			);
+			name = views;
+			sourceTree = "<group>";
+		};
+		BA4D7C081DDCA3B80031EB65 /* layouts */ = {
+			isa = PBXGroup;
+			children = (
+				BA4D7BF91DDC9F7F0031EB65 /* PageCollectionLayout.swift */,
+			);
+			name = layouts;
+			sourceTree = "<group>";
+		};
+		BA4D7C091DDCA3BC0031EB65 /* cells */ = {
+			isa = PBXGroup;
+			children = (
+				BA4D7BF61DDC9F7F0031EB65 /* MovieCell.swift */,
+				BA4D7BF81DDC9F7F0031EB65 /* NoMovieCell.swift */,
+			);
+			name = cells;
+			sourceTree = "<group>";
+		};
+		BA4D7C0A1DDCA3C00031EB65 /* extensions */ = {
+			isa = PBXGroup;
+			children = (
+				BA4D7BF11DDC9F760031EB65 /* Extensions.swift */,
+			);
+			name = extensions;
+			sourceTree = "<group>";
+		};
+		BA4D7C0B1DDCA3C80031EB65 /* networking */ = {
+			isa = PBXGroup;
+			children = (
+				BA4D7BEF1DDC9F760031EB65 /* DataManager.swift */,
+			);
+			name = networking;
+			sourceTree = "<group>";
+		};
+		BA4D7C0C1DDCA3DA0031EB65 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				BA4D7BF51DDC9F7F0031EB65 /* Models.swift */,
+			);
+			name = models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BA4D7BD61DDC9EF00031EB65 /* Filmio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA4D7BE91DDC9EF00031EB65 /* Build configuration list for PBXNativeTarget "Filmio" */;
+			buildPhases = (
+				BD5A5830ECCFD7ACAB56ED21 /* [CP] Check Pods Manifest.lock */,
+				BA4D7BD31DDC9EF00031EB65 /* Sources */,
+				BA4D7BD41DDC9EF00031EB65 /* Frameworks */,
+				BA4D7BD51DDC9EF00031EB65 /* Resources */,
+				C377B87074AABA7E180A3FED /* [CP] Embed Pods Frameworks */,
+				5A898895BC17429D5651F591 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Filmio;
+			productName = Filmio;
+			productReference = BA4D7BD71DDC9EF00031EB65 /* Filmio.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BA4D7BCF1DDC9EF00031EB65 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Andrej Broncek";
+				TargetAttributes = {
+					BA4D7BD61DDC9EF00031EB65 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 77JU894GUL;
+						LastSwiftMigration = 0810;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = BA4D7BD21DDC9EF00031EB65 /* Build configuration list for PBXProject "Filmio" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BA4D7BCE1DDC9EF00031EB65;
+			productRefGroup = BA4D7BD81DDC9EF00031EB65 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA4D7BD61DDC9EF00031EB65 /* Filmio */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BA4D7BD51DDC9EF00031EB65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA4D7BE51DDC9EF00031EB65 /* LaunchScreen.storyboard in Resources */,
+				BA4D7BE21DDC9EF00031EB65 /* Assets.xcassets in Resources */,
+				BA4D7BE01DDC9EF00031EB65 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5A898895BC17429D5651F591 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Filmio/Pods-Filmio-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD5A5830ECCFD7ACAB56ED21 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C377B87074AABA7E180A3FED /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Filmio/Pods-Filmio-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BA4D7BD31DDC9EF00031EB65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA4D7C031DDC9F7F0031EB65 /* SearchViewController.swift in Sources */,
+				BA4D7BFF1DDC9F7F0031EB65 /* MovieCollectionView.swift in Sources */,
+				BA4D7C001DDC9F7F0031EB65 /* NoMovieCell.swift in Sources */,
+				BA4D7BF31DDC9F760031EB65 /* DetailViewController.swift in Sources */,
+				BA4D7BEE1DDC9F650031EB65 /* AppDelegate.swift in Sources */,
+				BA4D7BFE1DDC9F7F0031EB65 /* MovieCell.swift in Sources */,
+				BA4D7BF21DDC9F760031EB65 /* DataManager.swift in Sources */,
+				BA4D7BF41DDC9F760031EB65 /* Extensions.swift in Sources */,
+				BA4D7C011DDC9F7F0031EB65 /* PageCollectionLayout.swift in Sources */,
+				BA4D7BFD1DDC9F7F0031EB65 /* Models.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BA4D7BDE1DDC9EF00031EB65 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA4D7BDF1DDC9EF00031EB65 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BA4D7BE31DDC9EF00031EB65 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA4D7BE41DDC9EF00031EB65 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BA4D7BE71DDC9EF00031EB65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BA4D7BE81DDC9EF00031EB65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BA4D7BEA1DDC9EF00031EB65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 731D0FFD9DA4AD6240749176 /* Pods-Filmio.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 77JU894GUL;
+				INFOPLIST_FILE = Filmio/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.andrejbroncek.Filmio;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		BA4D7BEB1DDC9EF00031EB65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35AD10B6BB70790E8ADD7E73 /* Pods-Filmio.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 77JU894GUL;
+				INFOPLIST_FILE = Filmio/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.andrejbroncek.Filmio;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BA4D7BD21DDC9EF00031EB65 /* Build configuration list for PBXProject "Filmio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA4D7BE71DDC9EF00031EB65 /* Debug */,
+				BA4D7BE81DDC9EF00031EB65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA4D7BE91DDC9EF00031EB65 /* Build configuration list for PBXNativeTarget "Filmio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA4D7BEA1DDC9EF00031EB65 /* Debug */,
+				BA4D7BEB1DDC9EF00031EB65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BA4D7BCF1DDC9EF00031EB65 /* Project object */;
+}

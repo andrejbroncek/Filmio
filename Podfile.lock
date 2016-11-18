@@ -1,0 +1,26 @@
+PODS:
+  - Alamofire (4.0.1)
+  - PKHUD (4.0.0)
+  - Reveal-SDK (4)
+  - SDWebImage (3.8.2):
+    - SDWebImage/Core (= 3.8.2)
+  - SDWebImage/Core (3.8.2)
+  - SwiftyJSON (3.1.1)
+
+DEPENDENCIES:
+  - Alamofire
+  - PKHUD (~> 4.0)
+  - Reveal-SDK
+  - SDWebImage
+  - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: 7682d43245de14874acd142ec137b144aa1dd335
+  PKHUD: 2bb45c936bb8afa39f3cd33ec14e8cc89f624255
+  Reveal-SDK: 178c927f1a3230648d3a92b96f6e730a35b2750a
+  SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
+  SwiftyJSON: f0be2e604f83e8405a624e9f891898bf6ed4e019
+
+PODFILE CHECKSUM: 555cc3b8ad8b92269d6352ca5d0e0838a2712825
+
+COCOAPODS: 1.1.1
