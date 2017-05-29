@@ -27,6 +27,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window = UIWindow(frame: UIScreen.main.bounds)
         window?.makeKeyAndVisible()
         window?.rootViewController = UINavigationController(rootViewController: SearchViewController())
+        
+        DataManager.apiKey = "INSERT YOUR OMDB API KEY HERE"
 
         return true
     }

@@ -11,11 +11,12 @@ import SwiftyJSON
 
 class DataManager {
     
+    static var apiKey = ""
     static let sharedInstance = DataManager()
     
     func searchMovies(name: String, type: String, page: Int, completionHandler: @escaping ([MovieModel?], String?) -> ()) {
         
-        let parameters: Parameters = ["s": name, "type": type, "page": page]
+        let parameters: Parameters = ["s": name, "type": type, "page": page, "apikey":DataManager.apiKey]
         var moviesArray = [MovieModel]()
         
         let dispatchGroup = DispatchGroup()
@@ -71,7 +72,7 @@ class DataManager {
     
     func getMovie(name: String, completionHandler: @escaping (MovieModel?, String?) -> ()) {
         
-        let parameters: Parameters = ["t": name]
+        let parameters: Parameters = ["t": name, "apikey":DataManager.apiKey]
         let movie = MovieModel()
         
         Alamofire.request("http://www.omdbapi.com/?", parameters: parameters).validate().responseJSON { response in
