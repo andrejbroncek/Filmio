@@ -79,7 +79,7 @@ class NoMovieCell: UICollectionViewCell {
         titleLabel.topAnchor.constraint(equalTo: posterImageView.bottomAnchor, constant: 16).isActive = true
         titleLabel.leftAnchor.constraint(equalTo: containerView.leftAnchor).isActive = true
         titleLabel.rightAnchor.constraint(equalTo: containerView.rightAnchor).isActive = true
-        titleLabel.heightAnchor.constraint(equalToConstant: 18).isActive = true
+        titleLabel.heightAnchor.constraint(equalToConstant: 20).isActive = true
         
         descriptionLabel.topAnchor.constraint(equalTo: titleLabel.bottomAnchor, constant: 16).isActive = true
         descriptionLabel.leftAnchor.constraint(equalTo: containerView.leftAnchor).isActive = true
